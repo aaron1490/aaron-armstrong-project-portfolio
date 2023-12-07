@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
+  color: #4C1357;
 }
 
 header {
@@ -35,10 +36,10 @@ header {
 
 ul {
   padding-right: 15px;
+  padding-top: 8px;
 }
 
 a {
-  color: #4C1357;
   text-decoration: none;
 }
 
@@ -50,6 +51,7 @@ a {
   margin-bottom: 25px;
   position: static;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -63,12 +65,75 @@ body {
 h2 {
   display: inline-block;
   background-color: #ffc107;
-  position: relative;
+  position: absolute;
   padding: 10px;
   position: fixed;
   bottom: 425px;
   right: 16px;
   font-weight: bold;
+}
+
+/* project grid space */
+.projectGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  border: #4C1357 3px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#projectGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 250px 250px 250px 250px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "code-refactor code-refactor"
+  "code-refactor code-refactor"
+  "led-wall calculator-image"
+  "pastel-puzzels run-buddy"
+  ;
+}
+
+#code-refactor {
+  grid-area: code-refactor;
+  background-image: url("../images/crc.png");
+  }
+
+#led-wall {
+  grid-area: led-wall;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator-image {
+  grid-area: calculator-image;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#pastel-puzzels {
+  grid-area: pastel-puzzels;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#run-buddy {
+  grid-area: run-buddy;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 197, 7, 0.7);
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 2px;
+  border-bottom: 2px solid #4C1357;
+  border-left: 2px solid #4C1357;
 }
 
 h1,
