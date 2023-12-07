@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
+nav ul li a:hover{
+  color: black;
+  font-weight: 400;
+}
+
 .hero-banner {
   background-image: url("../images/groovy-background_.jpg");
   width: 100%;
@@ -52,6 +57,7 @@ a {
   position: static;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 2;
 }
 
 body {
@@ -62,15 +68,23 @@ body {
   line-height: 1.5;
 }
 
-h2 {
+div h2 {
   display: inline-block;
+  position: relative;
   background-color: #ffc107;
-  position: absolute;
   padding: 10px;
-  position: fixed;
-  bottom: 425px;
-  right: 16px;
+  left: 1025px;
+  bottom: 60px;
   font-weight: bold;
+}
+
+div img {
+  display: inline-block;
+  z-index: 1;
+  bottom: -40px;
+  position: relative;
+  margin: 60px;
+  size-adjust: 130%;  
 }
 
 /* project grid space */
@@ -81,7 +95,6 @@ h2 {
   margin: 5px;
   border: #4C1357 3px;
   cursor: pointer;
-  display: grid;
   align-content: end;
 }
 
@@ -124,16 +137,23 @@ h2 {
 }
 
 .heading {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: inline-block;
   background-color: rgba(255, 197, 7, 0.7);
   font-weight: 600;
   font-size: 20px;
-  align-items: center;
   padding-left: 2px;
   border-bottom: 2px solid #4C1357;
   border-left: 2px solid #4C1357;
+}
+
+.page-section {
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+section div h3 {
+  margin-left: 95px;
+  margin-right: 95px;  
 }
 
 h1,
