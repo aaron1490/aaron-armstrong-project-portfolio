@@ -36,7 +36,7 @@ header {
 
 ul {
   padding-right: 15px;
-  padding-top: 8px;
+  padding-top: 9px;
 }
 
 a {
@@ -55,6 +55,7 @@ nav ul li a:hover{
   background-position: center;
   height: 400px;
   margin-bottom: 25px;
+  margin-top: -60px;
   position: static;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +64,7 @@ nav ul li a:hover{
 
 body {
   background-color: rgb(204, 197, 185);
-  margin: 0;
+  margin: 0px;
   padding: 0;
   line-height: 1.5;
 }
@@ -73,18 +74,17 @@ div h2 {
   position: relative;
   background-color: #ffc107;
   padding: 10px;
-  left: 1025px;
+  left: 1445px;
   bottom: 60px;
   font-weight: bold;
 }
 
 div img {
-  display: inline-block;
+  display: flex;
   z-index: 1;
-  bottom: -40px;
+  bottom: -100px;
   position: relative;
   margin: 60px;
-  size-adjust: 130%;  
 }
 
 #about-me {
@@ -156,7 +156,6 @@ div img {
   font-size: 17px;
 }
 
-
 .container-flex, footer{
   margin-left: 95px;
   margin-right: 95px;
@@ -176,8 +175,8 @@ h3 {
 .container-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   font-weight: bolder;
+  justify-content: center;
 }
 
 section div div {
@@ -220,7 +219,7 @@ footer p {
     display: none
   }
   body {
-    margin: 2vw;
+    margin: 0px 2vw;
   }
   .container-flex {
     display: inline-block;
@@ -242,19 +241,17 @@ footer p {
   }
   div img {
     display: block;
-    margin: 0 5vw;
-    /* position: relative; */
+    margin: 0 30vw;
     justify-content: center;
     align-items: center;
-    /* size-adjust: -150%; */
   }
   h1 {
     display: block;
     text-align: center;
     justify-content: center;
+    margin: 0 0;
   }
   h3 {
     margin-top: 15px;
   }
-  
 }
