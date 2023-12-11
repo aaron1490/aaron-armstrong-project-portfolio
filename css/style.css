@@ -93,7 +93,7 @@ div img {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
-  border: #4C1357 3px;
+  border: solid #4C1357 3px;
   cursor: pointer;
   align-content: end;
 }
@@ -167,9 +167,12 @@ section h3 {
 .container-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   font-weight: bolder;
-  
+}
+
+section div div {
+  margin-right: 70px;
 }
 
 section div div:hover{
