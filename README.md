@@ -53,7 +53,7 @@ The following animation shows the web application's appearance and functionality
 ## Links
 
 * [Link to the code repository](https://github.com/aaron1490/aaron-armstrong-project-portfolio)
-* [Link to the deployed page]([INSERT URL HERE](https://aaron1490.github.io/aaron-armstrong-project-portfolio/))
+* [Link to the deployed page]((https://aaron1490.github.io/aaron-armstrong-project-portfolio/)
 
 ## Grading Requirements
 
