@@ -89,6 +89,8 @@ div img {
 
 #about-me {
   margin: 0px 95px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* project grid space */
@@ -150,6 +152,11 @@ div img {
   border: 3px solid #4C1357;
 }
 
+.container-flex {
+  font-size: 17px;
+}
+
+
 .container-flex, footer{
   margin-left: 95px;
   margin-right: 95px;
@@ -195,9 +202,10 @@ footer p {
   text-align: center;
 }
 
+/* CSS media query syntax */
 @media only screen and (max-width: 1024px) {
   .projectGrid{
-    margin: 5%;
+    margin: 8vw;
     display: grid;
     grid-template-rows: 250px 250px 250px 250px 250px;
     grid-template-columns: 100%;
@@ -215,8 +223,7 @@ footer p {
     margin: 2vw;
   }
   .container-flex {
-    display: block;
-    float: left;
+    display: inline-block;
   }
   .hero-banner {
     margin: 0;
@@ -233,8 +240,21 @@ footer p {
     margin: 2vw;
     text-align: center;
   }
-  section img {
+  div img {
     display: block;
-    position: relative;
+    margin: 0 5vw;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    /* size-adjust: -150%; */
   }
+  h1 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  h3 {
+    margin-top: 15px;
+  }
+  
 }
