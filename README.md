@@ -1,14 +1,10 @@
-# Unit 2 Challenge: Portfolio
+# Unit 2 Challenge: Personal Portfolio Website
 
-## Your Task
+Welcome to the repository for my personal portfolio website! I'm thrilled to share my journey as an aspiring front-end developer and showcase the projects and skills that represent my passion for web development. This README file will guide you through the structure of the project and provide information on how to set it up locally.
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Project Overview
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+This repository contains the source code for my personal portfolio website. The website is designed to showcase my skills, projects, and experience as a front-end developer. Feel free to explore the various sections of the website and learn more about me and my work.
 
 ## Acceptance Criteria
 
@@ -21,13 +17,43 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * When images of the applications are clicked then the user is taken to that deployed application
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
+## Technologies Used
+
+* HTML5
+* CSS3
+
+## Project Structure
+
+* index.html: The main HTML file that structures the content of the portfolio.
+* css/: Contains the stylesheets for the website.
+
+## Features
+
+* About Me: Learn more about my background, skills, and interests.
+* Projects: Explore the various projects I've worked on, complete with descriptions and links.
+* Contact: Reach out to me through the provided contact methods.
+
+## License
+
+N/A
+
+## Contact
+
+Feel free to contact me if you have any questions or just want to connect:
+
+* Email: aaronarmstrong1490@gmail.com
+* LinkedIn: https://www.linkedin.com/in/aaron-armstrong-%E8%89%BE%E4%BF%8A%E6%A8%82-80986ba5/
+
 ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+![portfolio demo](./images/pagedemo.gif)
 
-Feel free to use your own colors and images.
+## Links
+
+* [Link to the code repository](https://github.com/aaron1490/aaron-armstrong-project-portfolio)
+* [Link to the deployed page](INSERT URL HERE)
 
 ## Grading Requirements
 
@@ -67,7 +93,7 @@ This challenge is graded based on the following criteria:
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application. 
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
