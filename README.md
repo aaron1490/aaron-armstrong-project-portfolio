@@ -44,7 +44,7 @@ Feel free to contact me if you have any questions or just want to connect:
 * Email: aaronarmstrong1490@gmail.com
 * LinkedIn: https://www.linkedin.com/in/aaron-armstrong-%E8%89%BE%E4%BF%8A%E6%A8%82-80986ba5/
 
-## Mock-Up
+## Page Demo
 
 The following animation shows the web application's appearance and functionality:
 
