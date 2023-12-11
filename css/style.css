@@ -46,6 +46,7 @@ a {
 nav ul li a:hover{
   color: black;
   font-weight: 400;
+  background-color: antiquewhite;
 }
 
 .hero-banner {
@@ -64,7 +65,6 @@ body {
   background-color: rgb(204, 197, 185);
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -98,7 +98,7 @@ div img {
   align-content: end;
 }
 
-#projectGrid {
+.projectGrid {
   margin: 0px 5%;
   display: grid;
   grid-template-rows: 250px 250px 250px 250px;
@@ -146,7 +146,7 @@ div img {
   border-left: 2px solid #4C1357;
 }
 
-.page-section {
+.page-section, .page-section-contact, footer{
   margin-left: 95px;
   margin-right: 95px;
 }
@@ -156,15 +156,38 @@ section div h3 {
   margin-right: 95px;  
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+section h3 {
+  display: inline-block;
+  text-decoration: underline;
+  background-color: #ffc107;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-p {
-  margin: 0;
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: bolder;
+  
 }
+
+section div div:hover{
+  color: black;
+  font-weight: 400;
+  background-color: #ffc107;
+}
+
+
+/* footer section */
+footer h4 {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer p {
+  display: block;
+  text-align: center;
+}
+
