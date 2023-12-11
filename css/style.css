@@ -51,7 +51,7 @@ nav ul li a:hover{
 
 .hero-banner {
   background-image: url("../images/groovy-background_.jpg");
-  width: 100%;
+  width: 100vw;
   background-position: center;
   height: 400px;
   margin-bottom: 25px;
@@ -85,6 +85,10 @@ div img {
   position: relative;
   margin: 60px;
   size-adjust: 130%;  
+}
+
+#about-me {
+  margin: 0px 95px;
 }
 
 /* project grid space */
@@ -141,27 +145,25 @@ div img {
   background-color: rgba(255, 197, 7, 0.7);
   font-weight: 600;
   font-size: 20px;
-  padding-left: 2px;
-  border-bottom: 2px solid #4C1357;
-  border-left: 2px solid #4C1357;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 3px solid #4C1357;
 }
 
-.page-section, .page-section-contact, footer{
+.container-flex, footer{
   margin-left: 95px;
   margin-right: 95px;
 }
 
-section div h3 {
-  margin-left: 95px;
-  margin-right: 95px;  
-}
-
-section h3 {
-  display: inline-block;
+h3 {
   text-decoration: underline;
+  text-align: center;
   background-color: #ffc107;
   font-size: 30px;
   margin-bottom: 10px;
+  padding: 5px 10px;
+  margin: 0px 95px;
+
 }
 
 .container-flex {
@@ -177,7 +179,6 @@ section div div {
 
 section div div:hover{
   color: black;
-  font-weight: 400;
   background-color: #ffc107;
 }
 
@@ -194,3 +195,46 @@ footer p {
   text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .projectGrid{
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "code-refactor"
+    "led-wall"
+    "calculator-image"
+    "pastel-puzzels"
+    "run-buddy"
+  }
+  nav {
+    display: none
+  }
+  body {
+    margin: 2vw;
+  }
+  .container-flex {
+    display: block;
+    float: left;
+  }
+  .hero-banner {
+    margin: 0;
+    padding: 0;
+  }
+  section h2 {
+    display: none;
+  }
+  footer h4{
+    margin: 2vw;
+    text-align: center;
+  }
+  footer p{
+    margin: 2vw;
+    text-align: center;
+  }
+  section img {
+    display: block;
+    position: relative;
+  }
+}
