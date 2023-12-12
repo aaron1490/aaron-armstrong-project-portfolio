@@ -68,16 +68,6 @@ body {
   line-height: 1.5;
 }
 
-div h2 {
-  display: inline-block;
-  position: relative;
-  background-color: #ffc107;
-  padding: 10px;
-  left: 1445px;
-  bottom: 60px;
-  font-weight: bold;
-}
-
 div img {
   display: flex;
   z-index: 1;
@@ -218,7 +208,7 @@ footer p {
     display: none
   }
   body {
-    margin: 0px 2vw;
+    margin: 0 0;
   }
   .container-flex {
     display: inline-block;
@@ -226,9 +216,6 @@ footer p {
   .hero-banner {
     margin: 0;
     padding: 0;
-  }
-  section h2 {
-    display: none;
   }
   footer h4{
     margin: 2vw;
