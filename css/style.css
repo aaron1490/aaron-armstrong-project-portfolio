@@ -146,8 +146,7 @@ div img {
 }
 
 .container-flex, footer{
-  margin-left: 95px;
-  margin-right: 95px;
+  margin: 0 95px;
 }
 
 h3 {
@@ -155,10 +154,8 @@ h3 {
   text-align: center;
   background-color: #ffc107;
   font-size: 30px;
-  margin-bottom: 10px;
   padding: 5px 10px;
-  margin: 0px 95px;
-
+  margin: 25px 95px;
 }
 
 .container-flex {
@@ -238,7 +235,7 @@ footer p {
     margin: 0 0;
   }
   h3 {
-    margin-top: 15px;
+    margin: 24px 2vw;
   }
   .hero-banner {
     width: 100%;
